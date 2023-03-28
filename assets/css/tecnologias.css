@@ -157,6 +157,36 @@
     background-color: rgb(34, 209, 34);
 }
 
+.barra-materialUi{
+  margin-left: 50px;
+  margin: 10px;
+  /* vamos declarar nossa
+    variável com o nome de
+    "progress". Ela terá seu
+    valor entre 0 e 100.
+    */
+  --progress: 50;
+  width: 300px;
+  border-radius: 5px;
+  height: 10px;
+  padding: 5px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.barra-materialUi::before{
+  content: "";
+  /* aqui estamos chamando
+    nossa variável. Como a
+    largura do pseudo-elemento
+    estará entre 0% e 100%, temos
+    que converter o valor da nossa
+    variável em porcentagem. Para
+    isso, basta multiplicar por 1%.
+    */
+  width: calc(var(--progress) * 1%);
+  background-color: rgb(34, 209, 34);
+}
 
 
   .barra-js::before{
