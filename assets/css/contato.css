@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --colorTexto: #ff0000;
+    --colorPerfil: #83B300;
+}
+.perfil a {
+    color: var(--colorPerfil);
+}
+
+p{
+    color:var(--colorTexto);
+    letter-spacing: 5px;
+}
+
+img{
+    padding: 20px;
+}
+
+h1{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#contato {
+    text-align: center;
+    margin-top: 100px;
+    transition: transform 0.5s;
+    transform: translateX(0) scale(0.9);
+}
+
+#contato:hover,
+#contato:focus {
+  transform: translateX(10px) scale(1.1);
+}
+
+#header2{
+    text-align: center;
+    margin-top: 80px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+#img-perfil {
+    width: 150px;
+    border-radius: 100px;
+}
+

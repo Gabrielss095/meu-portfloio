@@ -1,0 +1,93 @@
+/*
+font para titulos ( font-family: 'Roboto', sans-serif; )
+font para textos font-family: 'Montserrat', sans-serif;)
+cores :
+cinza (#e7e0e0)
+branco (#ffffff)
+preto (#000000)
+preto com transparencia (#000000e0)
+
+
+background: #4D1466
+textos #ffffff;
+#titulos #BB4DEA
+*/
+:root{
+    --colorBg: #4D1466;
+    --colorFont: #dbd8d8;
+    --colorTitulos: #BB4DEA;
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: var(--colorFont);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color:var(--colorBg);
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    box-shadow: #721e96 1px 5px 15px;
+    text-transform: uppercase;
+}
+
+ul li{
+    letter-spacing: 4px;
+    margin-top: 30px;
+    display: inline;
+    padding: 12px;
+}
+
+.perfil {
+    font-weight: 900;
+    color: var(--colorFont);
+    float: left;
+    margin-left: 20px;
+}
+.link {
+    margin-right: 20px;
+    float: right;
+}
+.link a {
+    font-weight: 900;
+    color: var(--colorFont);
+    text-decoration: none;
+}
+
+#titulos {
+    float: right;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+#titulos h1, h2{
+    text-transform: uppercase;
+    color: var(--colorTitulos);
+}
+#titulos h2{
+    letter-spacing: 3px;
+}
+#nome{
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+img{
+    width: 50px;
+}
+
+#dev {
+    margin-left: 250px;
+}

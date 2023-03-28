@@ -1,0 +1,71 @@
+*{
+        padding: 0;
+        margin: 0;
+        font-weight: 900;
+        color:#ffffff;
+}
+:root{
+    --colortitulos: #ff0000;
+    --colorSubTitulos: #BB4DEA;
+    --colorPerfil: #83B300;
+}
+
+.perfil a {
+    color: var(--colorPerfil);
+}
+
+#menu, .perfil, .link a {
+    font-weight: 900;
+}
+
+#resumo-profissional {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+#resumo-profissional h1{
+    color:var(--colortitulos);
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#formacao {
+    text-align: center;
+    text-align: center;
+    margin-top: 30px;
+}
+#formacao h1, #profissional h1{
+    color:var(--colortitulos);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#formacao h2{
+    color: var(--colorSubTitulos);
+    font-size: 15px;
+}
+
+#cursos {
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#profissional {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+
+strong{
+    color:var(--colortitulos);
+}
+
+#curriculo {
+    margin-top: 15px;
+}
+p{
+    color:var(--colortitulos);
+}
